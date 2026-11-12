@@ -107,7 +107,7 @@ public class Main {
                 String nextCell = board[nextY - 1][nextX-1];
 
                 if (nextCell.equals(castleImage)){
-                    System.out.println("ТЫ ПОБЕЖДАЕШЬ В ИГРЕ ЗА " + step +" ХОДОВ, МОЖЕШЬ НАЧАТЬ ЗАНОВО. СОЗДАНО SECRETNNIK");
+                    System.out.println("ТЫ ПОБЕЖДАЕШЬ В ИГРЕ ЗА " + step + " ХОДОВ, МОЖЕШЬ НАЧАТЬ ЗАНОВО. СОЗДАНО SECRETNNIK");
                     System.exit(777);
                 } else if (!nextCell.equals("  ")){
                     for (int i = 0; i <monsters.length; i++){
@@ -127,7 +127,7 @@ public class Main {
                 }
                 step++;
             } else {
-                System.out.println("ТЫ СЛИШКОМ БЫСТРО");
+                System.out.println("ТЫ СЛИШКОМ БЫСТРО, ПОПРОБУЙ ЗАНОВО");
             }
         }
     }
