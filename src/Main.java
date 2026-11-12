@@ -90,7 +90,7 @@ public class Main {
 
             if (person.getLive() <=0){
                 System.out.println("ТЫ УМЕРЛО");
-                game = false;
+                System.exit(404);
             }
 
             System.out.println("Ты на Х: " +person.getX() + ", Y: " + person.getY());
